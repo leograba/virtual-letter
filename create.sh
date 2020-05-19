@@ -4,7 +4,7 @@ cp templates/mainTemplate.qml main.qml
 cp templates/qmlTemplate.qrc qml.qrc
 mkdir -p slides
 
-for foto in $(ls --sort=time fotos)
+for foto in $(ls --sort=time photos)
 do
     fotoext=$(echo $foto | cut -d "." -f1 | sed 's/-//g') # remove extension
     cp templates/PageTemplate.qml slides/Page$fotoext.qml

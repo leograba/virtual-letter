@@ -1,11 +1,12 @@
 .pragma library
+
+// Variables to hold object handlers
 var timer;
 var swipe;
 
 function pathToFile() {
-    return "/home/leonardo/torizon/natalia-3anos/fotos/";
     // must include final backslash
-    // return "/full/path/to/directory/with/photos/";
+    return "/full/path/to/directory/with/photos/";
 }
 
 function getTimer(tm){
