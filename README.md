@@ -14,13 +14,10 @@ This project creates a slideshow:
 
 ## How to Use
 
-* Add your photos inside `photos`.
-* Run `./create.sh`
-* Customize text on:
-    * `intro.qml`
-    * `outro.qml`
-    * Each slide file `slides/*.qml`
-* Build and run the Qt app
+* Add your photos inside `photos`. In the app, they are sorted **by date**.
+* Run `./create.sh` once. It will delete all previous customization from `userconfig.js`.
+* Customize variables on `userconfig.js`.
+* Build and run the Qt app.
 
 ## License
 

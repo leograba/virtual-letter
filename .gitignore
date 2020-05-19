@@ -7,4 +7,5 @@ debug
 # files created from templates by "create.sh"
 main.qml
 qml.qrc
+userconfig.js
 slides/*.qml

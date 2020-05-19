@@ -2,6 +2,7 @@ import QtQuick 2.9
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.3
 import "../config.js" as Cfg
+import "../userconfig.js" as UsrCfg
 
 Page {
     id: page
@@ -13,7 +14,7 @@ Page {
     Text {
         id: caption
         color: "#4b4646"
-        text: qsTr("Add text here")
+        text: texthere
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
         height: parent.height * 0.2
@@ -34,7 +35,7 @@ Page {
         width: caption.width
         Image {
             id: photo
-            source: "file:" + Cfg.pathToFile() + "photohere"
+            source: "file:///" + applicationDirPath + UsrCfg.pathToPhotos + "photohere"
             autoTransform: true
             anchors.fill: parent
             fillMode: Image.PreserveAspectFit

@@ -4,11 +4,6 @@
 var timer;
 var swipe;
 
-function pathToFile() {
-    // must include final backslash
-    return "/full/path/to/directory/with/photos/";
-}
-
 function getTimer(tm){
     timer = tm;
 }
