@@ -1,0 +1,10 @@
+# build and project files
+build
+release
+debug
+*.pro.user
+
+# files created from templates by "create.sh"
+main.qml
+qml.qrc
+slides/*.qml
