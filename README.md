@@ -21,6 +21,8 @@ This project creates a slideshow:
 
 ## License
 
+Source code is licensed under GPLv3, see [LICENSE](LICENSE).
+
 Sample pictures on `photos` are licensed under CC-BY-2.0:
 
 * flower1.jpg - author: [mcdlttx](https://www.flickr.com/people/mcdlttx/) / source URL: [thumbnail](https://c7.staticflickr.com/6/5169/5252468855_1acbf960ba_z.jpg)
