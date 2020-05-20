@@ -2,6 +2,7 @@ import QtQuick 2.9
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.3
 import "config.js" as Cfg
+import "userconfig.js" as UsrCfg
 
 Page {
     id: introPage
@@ -13,10 +14,7 @@ Page {
     Text {
         id: intro
         color: "#4b4646"
-        text: qsTr("<b>Goodbye</b><br>" +
-                   "You can add a long multi-line text here. Read the intro " +
-                   "for more details.<br>See you!"
-                   )
+        text: UsrCfg.outroText
         textFormat: Text.RichText
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
@@ -31,7 +29,7 @@ Page {
 
     Button {
         id: startTimerBtn
-        text: "Add your \"Wanna restart?\" message here"
+        text: UsrCfg.outroTextButton
         anchors.top: intro.bottom
         anchors.topMargin: (parent.height -  intro.height) / 4
         anchors.horizontalCenter: parent.horizontalCenter
