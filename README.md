@@ -4,6 +4,8 @@ Sending a letter has become obsolete. One can send e-mails or messages over a
 thousand ways on social media. But how about making a computer program for your
 dearly beloved?
 
+![app gif](screenshots/screenshot-app.gif)
+
 ## How it Works
 
 This project creates a slideshow:
@@ -18,6 +20,17 @@ This project creates a slideshow:
 * Run `./create.sh` once. It will delete all previous customization from `userconfig.js`.
 * Customize variables on `userconfig.js`.
 * Build and run the Qt app.
+
+### Deploy With Docker
+
+You can deploy to a board running [Torizon](https://www.toradex.com/operating-systems/torizon):
+
+![board gif](screenshots/screenshot-board.gif)
+
+* Switch to the `torizon` branch.
+* Edit parameters on `docker-build-deploy.sh`.
+* Run `docker-build-deploy.sh`.
+    * If you are using VS Code, run the build task (`Ctrl + Shift + b`).
 
 ## License
 
