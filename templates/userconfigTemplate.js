@@ -1,9 +1,9 @@
 /** MODIFY THOSE VARIABLES **/
 
 // Path relative to where the app is being run
-// As example, on default config from QtCreator, path below is valid
+// As example, for the given Dockerfile, the path below is valid
 // It must include backslash on start and end
-var pathToPhotos = "/../../virtual-letter/photos/"
+var pathToPhotos = "/photos/"
 
 // Text displayed on intro slide
 var introText = "<b>Hello</b><br>" +

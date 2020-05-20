@@ -9,6 +9,8 @@ ApplicationWindow {
     width: 1280
     height: 800
 
+    visibility: "FullScreen"
+
     title: qsTr("Tabs")
 
     Component.onCompleted: {

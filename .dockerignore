@@ -1,0 +1,15 @@
+# build and project files
+build
+release
+debug
+*.pro.user
+
+# files created from templates by "create.sh"
+# main.qml
+# qml.qrc
+# userconfig.js
+# slides/*.qml
+
+# Docker files
+Dockerfile
+docker-compose*yml
